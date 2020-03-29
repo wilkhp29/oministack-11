@@ -1,0 +1,14 @@
+.master-container {
+     .content {
+        form {
+            .input-group {
+                display: flex;
+                input {
+                    +input {
+                        margin-left: 8px;
+                    }
+                }
+            }
+        }
+    }
+}
